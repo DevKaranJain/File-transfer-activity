@@ -1,0 +1,19 @@
+paylode ={
+    "Name": "TestinFileTransferActivityy",
+    "CustomerKey": "TestinFileTransferActivityy",
+    "FileTransferLocationId": "1D88265B-623D-4337-8240-2F9AA0DCEC44",
+    "Description": "FileTransferTest",
+    "FileSpec: "test.zip"
+}
+var token = {//your access token},
+
+   header = {
+        header: {
+            Authorization: "Bearer " + token
+        }
+    };
+
+
+httpRequest('POST',"https://xxxxxxxxxxxx.rest.marketingcloudapis.com/automation/v1/filetransfers","application/json",payload,header);  
+
+// use this  and enjoy 
